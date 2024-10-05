@@ -12,7 +12,7 @@ document.getElementById("submitButton").onclick =function(){
         temp = document.getElementById("textBox").value;
         temp = Number(temp);
         temp = toFahrenhit(temp);
-        document.getElementById("tempLable").innerHTML = temp + "f";
+        document.getElementById("tempLable").innerHTML = temp + "°f";
 
     }
     else{
